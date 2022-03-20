@@ -1,0 +1,7 @@
+version: '3'
+services:
+  maze:
+    image: efrei/maze
+    build:
+      dockerfile: ./docker/Dockerfile
+      context: ../
